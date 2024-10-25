@@ -1,0 +1,102 @@
+/* General container styling */
+.container {
+    width: 800px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Title styles */
+.title {
+    text-align: center; /* Center the title */
+    font-size: 28px; /* Title font size */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    color: #2c3e50; /* Dark blue */
+    margin-bottom: 20px; /* Space below title */
+}
+
+/* Table container styles */
+.table-container {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+}
+
+/* Table cell styles */
+.table-container td {
+    padding: 15px; /* Increase space around cells */
+}
+
+/* Input box styles */
+.input-box {
+    width: 100%; /* Full width of cell */
+    padding: 12px; /* Inner padding */
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+    transition: box-shadow 0.3s; /* Transition for focus effect */
+}
+
+/* Input box focus effect */
+.input-box:focus {
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5), 0 0 20px rgba(228, 5, 191, 0.5); /* Blue and pink glow on focus */
+}
+
+/* Checkbox and accept text */
+.accept {
+    margin: 20px 0; /* Space above and below */
+}
+
+
+/* .register-btn {
+    background-color: #2208d0; 
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    width: 100%; 
+} */
+/* 
+.register-btn:hover {
+    background-color: #28a5bb; 
+    transform: translateY(-2px);
+} */
+
+.register-btn {
+    background-color: #2208d0; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 15px 30px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    width: 200px; /* Set a fixed medium width */
+    margin: 0 auto; /* Center the button */
+    display: block; /* Make it a block element to center */
+    text-align: center;
+}
+
+/* Hover effect for button */
+.register-btn:hover {
+    background-color: #28a5bb; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Login link styles */
+.login {
+    text-align: center; /* Center login text */
+    margin-top: 20px; /* Space above */
+}
+
+.login a {
+    color: #300bd6; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.login a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

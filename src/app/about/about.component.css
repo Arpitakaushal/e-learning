@@ -1,0 +1,37 @@
+.aboutPage-container {
+    background-color: #f0f8ff; /* Light background color */
+    padding: 40px 20px; /* Add some padding */
+}
+
+.blue-overlay {
+    background-color: #344adb; /* Blue overlay for heading */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* White text color */
+}
+
+.features-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-around; /* Space out features */
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #ffffff; /* White background for features */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 10px; /* Margin between feature boxes */
+    flex: 0 1 calc(25% - 20px); /* Four boxes per row with spacing */
+    box-shadow: 0 4px 10px rgba(9, 36, 160, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+.feature h2 {
+    font-size: 24px; /* Feature title size */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.feature p {
+    font-size: 16px; /* Feature description size */
+}

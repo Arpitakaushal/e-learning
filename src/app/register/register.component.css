@@ -1,0 +1,109 @@
+/* body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 400px;
+    width: 800px;
+    background-color: lavender;
+    border-radius: 40px;
+    font-family: Arial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    text-align: center;
+    padding-top: 25px;
+}
+.btn-container{
+    height: 180px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.btn{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.role-container{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+    padding-left: 105px;
+    padding-top: 25px;
+} */
+
+
+/* General body styles */
+body {
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background: rgb(245, 241, 235) /* Gradient background */
+}
+
+/* Container styles */
+.container {
+    height: 200px; /* Height for the container */
+    width: 500px; /* Width for the container */
+    text-align: center; /* Center text */
+    padding: 20px;
+    background-color: #e2eaf1; /* Light background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 
+        0 20px 30px rgba(222, 75, 75, 0.2), /* Regular shadow */
+        0 0 20px rgba(10, 34, 159, 0.5); /* Blue-purple glow */
+}
+
+/* Title styles */
+.title {
+    font-size: 28px; /* Title font size */
+    color: #2c3e50; /* Dark blue for title */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Button container styles */
+.btn-container {
+    display: flex; /* Flexbox for button layout */
+    justify-content: center; /* Center buttons */
+    gap: 20px; /* Space between buttons */
+}
+
+/* Button styles */
+.btn {
+    height: 60px; /* Uniform height */
+    width: 200px; /* Uniform width */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    color: white; /* Text color */
+    font-size: 18px; /* Button text size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+/* Admin button styles */
+.admin-btn {
+    background-color: #4308cd; /* Purple for admin */
+}
+
+/* Student button styles */
+.student-btn {
+    background-color: #e74c3c; /* Red for student */
+}
+
+/* Hover effect */
+.btn:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
